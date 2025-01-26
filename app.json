@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "CryptoApp",
+    "slug": "cryptoapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dzmitrynistratau.cryptoapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.dzmitrynistratau.cryptoapp"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4a91e10e-2f52-403f-b147-2b02b037bd0d"
+      }
+    },
+    "owner": "dzmitry-nistratau",
+    "updates": {
+      "url": "https://u.expo.dev/4a91e10e-2f52-403f-b147-2b02b037bd0d"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
