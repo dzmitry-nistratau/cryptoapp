@@ -3,7 +3,7 @@
 ## Access the App
 
 - [Web Application](https://cryptoapp--u8e7w2tfnd.expo.app/)
-- [Mobile Application via Expo Go](exp://u.expo.dev/update/44f31c0d-17af-463d-9623-bcda03af3647)
+- Mobile Application via Expo Go: exp://u.expo.dev/update/44f31c0d-17af-463d-9623-bcda03af3647
 
 ## Get started
 
