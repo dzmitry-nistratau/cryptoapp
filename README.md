@@ -1,6 +1,9 @@
-# Welcome to your Expo app 👋
+# Welcome to my Crypto App 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Access the App
+
+- [Web Application](https://cryptoapp--u8e7w2tfnd.expo.app/)
+- [Mobile Application via Expo Go](exp://u.expo.dev/update/44f31c0d-17af-463d-9623-bcda03af3647)
 
 ## Get started
 
@@ -23,28 +26,17 @@ In the output, you'll find options to open the app in a
 - [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
 - [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Technology Prioritization
 
-## Get a fresh project
+The focus was on ensuring the core functionality is robust and non-blocking for the user flow.
 
-When you're ready, run:
+The priorities included:
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- Creating a universal application using Expo and Expo Router for both mobile devices and the web.
+- Implementing Mobx for efficient state management and storage of cryptocurrency data.
+- Ensuring basic error handling is in place, with integrated navigation support to guide users.
+- Utilizing Zod for type-safe data validation.
+- Leveraging pre-built components from the react-native-paper library, which are compatible with both mobile and web platforms.
+- Setting up basic theming with branded colors to maintain a consistent visual identity across the application.
+- Deploying the web application using Expo EAS Hosting for a straightforward and accessible demonstration, complemented by a sharable Expo app link.
+- While this solution does not encompass all potential improvements and extensions, I am eager to discuss them further during a conversation.
